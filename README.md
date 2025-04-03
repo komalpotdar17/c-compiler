@@ -50,7 +50,7 @@ In this phase, we extract necessary semantic information from the source code wh
 flex scanner.l
 yacc -d parser.y
 gcc lex.yy.c y.tab.c
-a.out < TestCases/forloop.c
+a.exe < TestCases/forloop.c
 ```
 
 Parsing result will be printed in the terminal.
